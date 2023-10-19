@@ -8,12 +8,13 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #232126;
+  /* background-color: #232126; */
+  background-color: rgba(0, 0, 0, 0.923);
 }
 
 .main-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("images/1.jpg");
+    url("images/3.jpg");
   background-attachment: fixed;
   height: 100vh;
 }
@@ -175,36 +176,49 @@ footer {
 
 .main h1 {
   color: rgb(38, 188, 38);
-  font-size: 60px;
-  transition: 5s;
-}
-.main h1:hover {
-  transform: scale(0.6);
-  transition: 3s;
-  cursor: none;
-}
-.main h5 {
-  color: #e3e1d4;
   font-size: 30px;
-  pointer-events: none;
+  text-shadow: 2px 2px 5px #000000;
 }
 
-.main p {
-  margin: auto;
-  width: 600px;
-  margin-top: 50px;
+.main h5 {
   color: #e3e1d4;
+  font-size: 130px;
   pointer-events: none;
+  text-shadow: 2px 2px 5px #000000;
 }
+
 .main span {
   color: #e3e1d4;
+}
+.main-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.resume-right a {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #e3e1d4;
+  background-color: transparent;
+  padding: 15px 40px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid #e3e1d4;
+}
+.resume-right a:hover {
+  transition: 0.5s;
+  color: black;
+  cursor: pointer;
+  background-color: #e3e1d4;
 }
 
 .resume {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
 }
 .resume a {
   font-family: "Poppins", sans-serif;
@@ -219,9 +233,10 @@ footer {
 }
 .resume a:hover {
   transition: 0.5s;
-  color: black;
+  color: #e3e1d4;
   cursor: pointer;
-  background-color: #e3e1d49f;
+  background-color: transparent;
+  border: 1px solid #e3e1d4;
 }
 .resume i {
   color: black;
@@ -230,8 +245,9 @@ footer {
 }
 
 .projects {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("images/1.jpg");
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("images/1.jpg"); */
+  background-color: rgba(0, 0, 0, 0.901);
   background-attachment: fixed;
   padding: 100px 150px 50px 150px;
   min-height: 100vh;
@@ -325,7 +341,7 @@ footer {
   padding-top: 100px;
   min-height: 50vh;
   text-align: center;
-  color: white;
+  color: #e3e1d4;
 }
 .about p {
   margin: auto;
@@ -364,7 +380,7 @@ footer {
   transition: 0.9s;
   cursor: pointer;
   color: #e3e1d4;
-  margin-left: 50px;
+
   transform: scale(1.1);
 }
 footer {
